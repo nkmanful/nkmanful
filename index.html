@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nana Kwaw Manful, PMP® | Project, Data & Finance Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14233B; --muted:#4A586D; --paper:#F6F8FB; --card:#FFFFFF; --line:#D5DDE8; --accent:#0E7C86; --accent-ink:#FFFFFF; --soft:#E3F1F2;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--ink:#E8EEF7; --muted:#A3B1C6; --paper:#0F1826; --card:#172336; --line:#2A3A52; --accent:#4FC3CE; --accent-ink:#0F1826; --soft:#14323A; color-scheme:dark;}
+}
+:root[data-theme="dark"]{--ink:#E8EEF7; --muted:#A3B1C6; --paper:#0F1826; --card:#172336; --line:#2A3A52; --accent:#4FC3CE; --accent-ink:#0F1826; --soft:#14323A; color-scheme:dark;}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+.wrap{max-width:920px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:"IBM Plex Serif",Georgia,"Times New Roman",serif;font-weight:600;line-height:1.2;margin:0}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+header.hero{padding:64px 0 40px}
+.hero h1{font-size:clamp(2.1rem,6vw,3.4rem);max-width:16ch}
+.hero .name{margin:0 0 14px;color:var(--muted);font-weight:500}
+.hero p.lead{font-size:1.15rem;max-width:56ch;color:var(--muted);margin:18px 0 22px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:600;border:2px solid var(--accent);background:var(--accent);color:var(--accent-ink)}
+.btn.alt{background:transparent;color:var(--accent)}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin:26px 0 0;padding:0;list-style:none;color:var(--muted);font-size:.95rem}
+.facts b{color:var(--ink)}
+section{padding:36px 0;border-top:1px solid var(--line)}
+section h2{font-size:1.6rem;margin-bottom:14px}
+.lens{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.lens button{font:inherit;font-weight:500;padding:9px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.lens button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+#lens-note{background:var(--soft);border-radius:10px;padding:14px 16px;margin:0 0 22px;max-width:70ch}
+.cases{display:grid;gap:18px}
+.case{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px}
+.case[hidden]{display:none}
+.case h3{font-size:1.2rem;margin-bottom:10px}
+.case dl{margin:0;display:grid;grid-template-columns:90px 1fr;gap:8px 14px}
+.case dt{font-weight:600;color:var(--accent)}
+.case dd{margin:0}
+.stat{display:inline-block;margin-top:12px;font-weight:600;background:var(--soft);padding:4px 10px;border-radius:6px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.grid2 h3{font-size:1.05rem;margin-bottom:8px}
+ul.plain{margin:0;padding-left:1.1em}
+ul.plain li{margin:4px 0}
+.role{margin:0 0 14px}
+.role b{display:block}
+.role span{color:var(--muted);font-size:.95rem}
+.note{color:var(--muted);font-size:.9rem;max-width:70ch}
+footer{padding:36px 0 56px;border-top:1px solid var(--line)}
+@media (max-width:560px){.case dl{grid-template-columns:1fr}.case dt{margin-top:6px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <p class="name">Nana Kwaw Manful, PMP®, FMVA®</p>
+  <h1>I keep project money honest and projects moving.</h1>
+  <p class="lead">Project coordination, financial analysis and PMO reporting for multi-stakeholder programs, built over six years in international development finance and administration.</p>
+  <div class="btns"><a class="btn" href="mailto:nkmanful@gmail.com">Email me</a><a class="btn alt" href="https://www.linkedin.com/in/manfulnanakwaw/">LinkedIn profile</a></div>
+  <ul class="facts"><li><b>Multi-million</b> dollar project portfolio tracked</li><li><b>10+</b> bid evaluations chaired</li><li><b>30+</b> programs coordinated</li><li>Canadian Permanent Resident, eligible to work in Canada</li></ul>
+</div></header>
+
+<main>
+<section><div class="wrap">
+  <h2>Selected work</h2>
+  <div class="lens" role="group" aria-label="View work by discipline">
+    <button type="button" data-lens="fin" aria-pressed="true">Finance &amp; PMO</button>
+    <button type="button" data-lens="data" aria-pressed="false">Data &amp; business analysis</button>
+    <button type="button" data-lens="pm" aria-pressed="false">Project management</button>
+  </div>
+  <p id="lens-note" aria-live="polite"></p>
+  <div class="cases">
+    <article class="case" data-lenses="fin data pm">
+      <h3>Closing a hidden 15–20% budget gap</h3>
+      <dl><dt>Problem</dt><dd>Program plans budgeted consultants and training but left out flights, car rentals and per diems. Teams were under-budgeted, then overspent on costs they could not avoid.</dd>
+      <dt>Action</dt><dd>Introduced a standard planning template that makes teams flag and estimate these costs up front, so they are built into the budget from day one.</dd>
+      <dt>Result</dt><dd>Actual spend moved much closer to plan, and funds for other locations were protected.</dd></dl>
+      <span class="stat">Gap estimated at 15–20% of total program cost</span>
+    </article>
+    <article class="case" data-lenses="fin data">
+      <h3>Catching a partner’s mismatched expense report</h3>
+      <dl><dt>Problem</dt><dd>An implementing partner’s receipts and supporting documents did not match the amounts reported or the funds received.</dd>
+      <dt>Action</dt><dd>Compared the approved budget to reported spend line by line, built an approved-versus-actual variance analysis and shared it with the partner.</dd>
+      <dt>Result</dt><dd>The partner corrected the errors, and the file went to the country office for final retirement with clean documentation.</dd></dl>
+    </article>
+    <article class="case" data-lenses="fin pm">
+      <h3>Running procurement from requisition to award</h3>
+      <dl><dt>Problem</dt><dd>Project needs arrived as informal requests with no compliant specification.</dd>
+      <dt>Action</dt><dd>Turned requisitions into Terms of Reference, published tenders on the UN Global Marketplace and chaired technical and financial evaluation panels.</dd>
+      <dt>Result</dt><dd>More than 10 bid evaluations chaired, with decisions documented and defensible.</dd></dl>
+    </article>
+    <article class="case" data-lenses="pm data">
+      <h3>Delivering 30+ programs and growing sponsorship</h3>
+      <dl><dt>Problem</dt><dd>A busy program calendar needed tight budget tracking and a stronger sponsor base.</dd>
+      <dt>Action</dt><dd>Tracked budgets and milestones across concurrent programs, reported performance to leadership and managed 30+ corporate sponsor relationships.</dd>
+      <dt>Result</dt><dd>Programs delivered on time and within budget, and sponsorship revenue rose.</dd></dl>
+      <span class="stat">+30% sponsorship revenue</span>
+    </article>
+    <article class="case" data-lenses="pm fin data">
+      <h3>Closing every open purchase order before the final report</h3>
+      <dl><dt>Problem</dt><dd>Near the end of a project, a large number of purchase orders were still open, with contracts and implementation agreements running and some past their deadlines. All open purchase orders had to be closed before final reporting. It was not formally my responsibility.</dd>
+      <dt>Action</dt><dd>Built an offline dashboard of every open PO, loaded from the Excel tracker and kept offline to protect the data. Created with AI assistance and iterative prompting, it showed delivery status, amounts paid and amounts awaiting retirement. Worked with program officers to understand each implementing partner’s blockers and help with retirement documents. Presented the dashboard and weekly closure commitments to the global project manager, and put new PO requests on hold to protect the deadline.</dd>
+      <dt>Result</dt><dd>Open POs were cut by about half within two weeks and all were closed in roughly eight weeks, on time. The team was reported at a global meeting as the first in the organisation to do it.</dd></dl>
+      <span class="stat">Open POs halved in 2 weeks, all closed in about 8</span>
+    </article>
+    <article class="case" data-lenses="pm">
+      <h3>Turning a contract review into a reusable playbook</h3>
+      <dl><dt>Problem</dt><dd>A contract with a photojournalism group, hired to document beneficiary stories, hit friction partway through: expectations were not fully captured in the contract and information moved through several channels.</dd>
+      <dt>Action</dt><dd>Kept engaging throughout with regular stand-ups. When the contract ended, ran a structured review with the team on what worked, what did not and what to improve, covering both sides. Documented everything.</dd>
+      <dt>Result</dt><dd>A written lessons-learned guide for both parties. Two takeaways: define the terms of reference precisely, including how many events are covered and exactly what deliverable is expected, and name one single point of contact between the project team and the vendor so information is not duplicated or lost.</dd></dl>
+    </article>
+    <article class="case" data-lenses="pm data">
+      <h3>Documenting how the organisation actually works</h3>
+      <dl><dt>Problem</dt><dd>The organisation needed a shared picture of its workflows, approval points and bottlenecks, and a go-to reference for new hires.</dd>
+      <dt>Action</dt><dd>Nominated to a committee set up to map every process, then selected as its secretary. The committee met and documented each process, covering required paperwork, approval points and bottlenecks, with workarounds identified. Coverage spanned HR (about five processes, including recruitment and onboarding), finance (about six), the program unit and the director’s office.</dd>
+      <dt>Result</dt><dd>Documented processes that give current staff a shared view of the workflow and new hires a reference for how things are done.</dd></dl>
+    </article>
+  </div>
+  <p class="note">Case studies are anonymised and figures are my own estimates from the work described. No confidential data is shown.</p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Toolkit</h2>
+  <div class="grid2">
+    <div><h3>Project delivery</h3><ul class="plain"><li>Microsoft Project, Jira, Asana, Planview, Confluence</li><li>TeamGantt, Trello, Slack</li><li>Microsoft 365: Excel, Word, PowerPoint, SharePoint, Teams, Outlook</li><li>Milestone, risk and issue tracking</li></ul></div>
+    <div><h3>Data and reporting</h3><ul class="plain"><li>Advanced Excel: pivots, formulas, dashboards</li><li>IRIS management information system</li><li>Variance analysis and forecasting</li><li>Offline HTML dashboards built with AI assistance</li></ul></div>
+    <div><h3>Finance</h3><ul class="plain"><li>Budgeting, accruals, reconciliation</li><li>Partner financial reviews</li><li>QuickBooks, Tally</li></ul></div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Experience</h2>
+  <p class="role"><b>Finance &amp; Administrative Assistant, International Labour Organization</b><span>Oct 2024 to present, Accra</span></p>
+  <p class="role"><b>Project Associate, Finance &amp; Administration, ILO</b><span>Nov 2023 to May 2024, Accra</span></p>
+  <p class="role"><b>Administrator, Finance &amp; Administration, Joyful Way Incorporated</b><span>Aug 2016 to Oct 2024, Accra</span></p>
+  <p class="role"><b>Earlier roles</b><span>Ministry of Food and Agriculture (WAAPP), Association of Ghana’s Elders</span></p>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Credentials</h2>
+  <ul class="plain">
+    <li>Project Management Professional (PMP®), Project Management Institute, 2022</li>
+    <li>Financial Modeling &amp; Valuation Analyst (FMVA®), Corporate Finance Institute, 2022</li>
+    <li>MSc Development Finance, University of Ghana Business School</li>
+    <li>BA Adult Education with Sociology, University of Ghana</li>
+  </ul>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <h2>Let’s talk</h2>
+  <p>Open to project coordination, PMO and financial analysis roles in Canada.</p>
+  <div class="btns"><a class="btn" href="mailto:nkmanful@gmail.com">nkmanful@gmail.com</a></div>
+</div></footer>
+
+<script>
+(function(){
+  var notes={
+    fin:"Budget control, variance analysis and procurement discipline, the core of PMO and financial operations work.",
+    data:"Turning raw spend, reports and documentation into analysis that people can act on.",
+    pm:"Prioritising competing work, leading across teams without authority, and delivering on time and within budget."
+  };
+  var btns=document.querySelectorAll('.lens button'),cards=document.querySelectorAll('.case'),note=document.getElementById('lens-note');
+  function set(k){
+    btns.forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.lens===k))});
+    cards.forEach(function(c){c.hidden=c.dataset.lenses.split(' ').indexOf(k)<0});
+    note.textContent=notes[k];
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.lens)})});
+  set('fin');
+})();
+</script>
+</body>
+</html>
